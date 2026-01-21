@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "things-completed-yesterday",
-  "title": "Things Completed Yesterday",
-  "description": "View tasks you completed yesterday in Things 3",
+  "title": "Things Completed Tasks",
+  "description": "View tasks you completed today or yesterday in Things 3",
   "icon": "command-icon.png",
   "author": "vijaydaultani",
   "categories": ["Productivity"],
@@ -13,6 +13,13 @@
       "title": "Show Completed Yesterday",
       "subtitle": "Things",
       "description": "View tasks you completed yesterday",
+      "mode": "view"
+    },
+    {
+      "name": "show-completed-today",
+      "title": "Show Completed Today",
+      "subtitle": "Things",
+      "description": "View tasks you completed today",
       "mode": "view"
     }
   ],
